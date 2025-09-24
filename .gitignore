@@ -1,0 +1,44 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Kubernetes temporary files
+*.kubeconfig.bak
+*.yaml.bak
+*.yml.bak
+
+# Personal notes (if you want to keep them private)
+personal-notes/
+private/
+
+# Certificates and keys (never commit these!)
+*.key
+*.crt
+*.pem
+*.p12
+*.pfx
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Cache directories
+.cache/
