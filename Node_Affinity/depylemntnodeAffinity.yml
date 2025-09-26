@@ -38,5 +38,7 @@ spec:
 ...
               
 
-
+### Run the repective Pod on the Particular Node/Slave machine
+#kubectl label nodes "node_name" node2=imran2
+#                                 key   value   
               
