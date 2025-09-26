@@ -1,0 +1,13 @@
+---
+apiVersion: apps/v1
+kind: Deployment 
+metadata:
+  name: -deployment 
+  labels:
+    type: 
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      name: -deployment
+      
